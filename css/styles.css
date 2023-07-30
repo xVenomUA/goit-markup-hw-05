@@ -617,7 +617,7 @@ img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
 }
-.foot-lavel input::placeholder {
+.foot-label input::placeholder {
     color: var(--primary-white-color);
 }
 
@@ -642,7 +642,6 @@ img {
 .subm-butt:focus {
     background-color: var(--howe-color);
 }
-
 .icon-teg {
     margin-left: 16px;
     fill: var(--primary-white-color);
