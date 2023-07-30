@@ -645,4 +645,5 @@ img {
 
 .icon-teg {
     margin-left: 16px;
+    fill: var(--primary-white-color);
 }
