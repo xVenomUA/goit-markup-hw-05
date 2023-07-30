@@ -473,18 +473,24 @@
                         <label for="user-comment" class="person">Comment</label>
                         <textarea
                             id="user-comment"
-                            name="comment"
+                            name="user-comment"
                             class="comment-info"
                             placeholder="Text input"
                         >
                         </textarea>
                     </div>
                     <div class="checkbox">
-                        <label for="check" class="box-check"
+                        <input
+                            id="user-privacy"
+                            type="checkbox"
+                            name="user-privacy"
+                            value="true"
+                            class="visually-hidden"
+                        />
+                        <label for="user-privacy" class="box-check"
                             >I accept the terms and conditions of the
-                            <span><a href="" class="link">Privacy Policy</a></span></label
-                        >
-                        <input id="check" type="checkbox" />
+                            <span class="privacy"><a href="" class="link">Privacy Policy</a></span>
+                        </label>
                     </div>
                 </form>
             </div>
