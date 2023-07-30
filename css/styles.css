@@ -443,6 +443,7 @@ img {
 }
 .social .list-icon {
     gap: 16px;
+    margin-right: 80px;
 }
 .social .text {
     font-weight: 500;
