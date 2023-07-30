@@ -615,9 +615,10 @@ img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     padding-left: 16px;
 }
-
-.subm-butt {
+.foot-lavel input::placeholder {
+    color: var(--primary-white-color);
 }
+
 .icon-teg {
     fill: red;
 }
