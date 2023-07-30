@@ -679,6 +679,9 @@ img {
 .order-info:focus {
     border-color: var(--iris-color);
 }
+.inp_label {
+    position: relative;
+}
 .icon-order {
     position: absolute;
     left: 16px;
