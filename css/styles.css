@@ -710,3 +710,6 @@ input:focus + .icon-order,
     color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px;
 }
+.checkbox {
+    margin: 0 0 24px 0;
+}
