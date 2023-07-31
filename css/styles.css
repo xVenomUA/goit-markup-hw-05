@@ -658,11 +658,13 @@ img {
 .cont-order {
     margin: 0 0 8px 0;
 }
-.person {
+.person .box-check {
     font-size: 12px;
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: var(--lightslate);
+}
+.person {
     display: block;
     margin: 0 0 4px 0;
 }
