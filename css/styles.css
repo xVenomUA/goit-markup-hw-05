@@ -640,7 +640,9 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subm-butt:hover,
-.subm-butt:focus {
+.subm-butt:focus,
+.buto-priv:hover,
+.buto-priv:focus {
     background-color: var(--howe-color);
 }
 .icon-teg {
@@ -750,11 +752,7 @@ input:focus + .icon-order,
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.buto-priv:hover,
-.buto-priv:focus {
-    background-color: var(--howe-color);
-}
-input:checked + .icons {
+.box input:checked + .icons {
     background-color: var(--howe-color);
     border: none;
     fill: var(--cloud-color);
