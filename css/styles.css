@@ -658,13 +658,11 @@ img {
 .cont-order {
     margin: 0 0 8px 0;
 }
-.person .box-check {
+.person {
     font-size: 12px;
     letter-spacing: 0.04em;
     line-height: 1.17;
     color: var(--lightslate);
-}
-.person {
     display: block;
     margin: 0 0 4px 0;
 }
@@ -714,4 +712,20 @@ input:focus + .icon-order,
 }
 .checkbox {
     margin: 0 0 24px 0;
+}
+.box {
+    font-family: var(--primaryrob-font);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.17;
+    color: var(--lightslate);
+}
+.privacy {
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    fill: transparent;
 }
