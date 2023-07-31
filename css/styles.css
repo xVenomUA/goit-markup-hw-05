@@ -754,3 +754,8 @@ input:focus + .icon-order,
 .buto-priv:focus {
     background-color: var(--howe-color);
 }
+input:checked + .icons {
+    background-color: var(--howe-color);
+    border: none;
+    fill: var(--cloud-color);
+}
